@@ -15,29 +15,25 @@ namespace SystemDesign11
             if (radioButton1.Checked)
             {
 
-
-                Debug.Print("radioButton1");
+                radioButton1Checked();
 
             }
             else if (radioButton2.Checked)
             {
 
-
-                Debug.Print("radioButton2");
+                radioButton2Checked();
 
             }
             else if (radioButton3.Checked)
             {
 
-
-                Debug.Print("radioButton3");
+                radioButton3Checked();
 
             }
             else if (radioButton4.Checked)
             {
 
-
-                Debug.Print("radioButton4");
+                radioButton4Checked();
 
             }
             else
@@ -47,6 +43,34 @@ namespace SystemDesign11
                 Debug.Print("???");
 
             }
+
+        }
+
+        private void radioButton4Checked()
+        {
+
+            Debug.Print("radioButton4");
+
+        }
+
+        private void radioButton3Checked()
+        {
+
+            Debug.Print("radioButton3");
+
+        }
+
+        private void radioButton2Checked()
+        {
+
+            Debug.Print("radioButton2");
+
+        }
+
+        private void radioButton1Checked()
+        {
+
+            Debug.Print("radioButton1");
 
         }
     }
